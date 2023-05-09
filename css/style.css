@@ -1,0 +1,99 @@
+* {
+    -webkit-box-sizing:border-box ;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 75px;
+    padding-right: 75px;
+    background-color: blanchedalmond;
+}
+ul {
+    list-style: none;
+}
+
+@media (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+.header .container {
+    border-bottom: 2px solid black
+}
+.header .container .heading h2 {
+    font-size:xxx-large;
+    font-weight:900;
+    float: right;
+    padding-top: 50px;
+    color: #10abc7;
+
+}
+.header .container .heading .logo {
+    width: 200px;
+    border-radius:50% ;
+
+    
+}
+.services .container .text h1 {
+    text-align: center;
+    font-size: 75px;
+    font-weight: normal;
+    padding: 20px;
+    color:#10abc7;
+}
+.imgs-container .box {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-bottom: 2px dashed red;
+    padding-bottom: 20px;
+}
+
+.imgs-container .box img{
+    width: 215px;
+    padding-right: 50px;
+    height: 215px;
+    margin-top: 120px;
+}
+.imgs-container .box .caption h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight:bolder;
+    color: red;
+}
+.imgs-container .box .caption p {
+    font-weight:800;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.imgs-container .box .caption a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.name {
+    text-align: center;
+    font-size: 60px;
+    color: #10abc7;
+    font-weight: 800;
+    padding-top: 25px;
+}
